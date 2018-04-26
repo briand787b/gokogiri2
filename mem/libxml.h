@@ -1,5 +1,5 @@
-#ifndef _GOKOGIRI_LIBXML_H
-#define _GOKOGIRI_LIBXML_H
+#ifndef _gokogiri2_LIBXML_H
+#define _gokogiri2_LIBXML_H
 
 unsigned long libxmlGoAllocSize();
 void libxmlGoInit();

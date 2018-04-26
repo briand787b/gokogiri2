@@ -4,8 +4,9 @@ package css
 
 import (
 	"fmt"
-	"github.com/moovweb/rubex"
 	"strings"
+
+	"github.com/briand787b/rubex"
 )
 
 type Lexeme int

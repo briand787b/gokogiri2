@@ -1,6 +1,6 @@
 package xpath
 
-//please check the search tests in gokogiri/xml and gokogiri/html
+//please check the search tests in gokogiri2/xml and gokogiri2/html
 import "testing"
 
 func TestCompileGoodExpr(t *testing.T) {

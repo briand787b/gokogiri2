@@ -26,7 +26,7 @@ import (
 *
 * xmlInitParser should be called at the very beginning before doing anything
 *   parser related.  Luckly, using the call below, we can guarantee that by
-*   making sure it gets called exactly once if anyone uses any gokogiri
+*   making sure it gets called exactly once if anyone uses any gokogiri2
 *   related functions.
 *
 * xmlCleanupParser is trickier because it also can only be called once, but it

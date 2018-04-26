@@ -2,11 +2,12 @@ package html
 
 import (
 	"fmt"
-	"github.com/moovweb/gokogiri/help"
 	"io/ioutil"
 	"path/filepath"
 	"strings"
 	"testing"
+
+	"github.com/briand787b/gokogiri2/help"
 )
 
 func badOutput(actual string, expected string) {

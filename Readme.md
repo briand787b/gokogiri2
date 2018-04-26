@@ -1,4 +1,4 @@
-Gokogiri
+gokogiri2
 ========
 LibXML bindings for the Go programming language.
 ------------------------------------------------
@@ -16,12 +16,12 @@ This is a major rewrite from v0 in the following places:
 To install:
 
 - sudo apt-get install libxml2-dev
-- go get github.com/moovweb/gokogiri
+- go get github.com/briand787b/gokogiri2
 
 To run test:
 
-- go test github.com/moovweb/gokogiri/html
-- go test github.com/moovweb/gokogiri/xml
+- go test github.com/briand787b/gokogiri2/html
+- go test github.com/briand787b/gokogiri2/xml
 
 Basic example:
 
@@ -30,7 +30,7 @@ Basic example:
     import (
       "net/http"
       "io/ioutil"
-      "github.com/moovweb/gokogiri"
+      "github.com/briand787b/gokogiri2"
     )
 
     func main() {
@@ -39,7 +39,7 @@ Basic example:
       page, _ := ioutil.ReadAll(resp.Body)
 
       // parse the web page
-      doc, _ := gokogiri.ParseHtml(page)
+      doc, _ := gokogiri2.ParseHtml(page)
 
       // perform operations on the parsed page -- consult the tests for examples
 

@@ -1,15 +1,15 @@
 /*
-The gokogiri package provides a Go interface to the libxml2 library.
+The gokogiri2 package provides a Go interface to the libxml2 library.
 
 It is inspired by the ruby-based Nokogiri API, and allows one to parse, manipulate, and create HTML and XML
 documents. Nodes can be selected using either CSS selectors (in much the same fashion as jQuery) or XPath 1.0 expressions,
 and a simple DOM-like inteface allows for building up documents from scratch.
 */
-package gokogiri
+package gokogiri2
 
 import (
-	"github.com/moovweb/gokogiri/html"
-	"github.com/moovweb/gokogiri/xml"
+	"github.com/briand787b/gokogiri2/html"
+	"github.com/briand787b/gokogiri2/xml"
 )
 
 /*
@@ -27,7 +27,7 @@ ParseXml parses an UTF-8 encoded byte array and returns an xml.XmlDocument. By d
 and suppress errors and warnings. This allows one to liberal in accepting badly-formed documents, but is not standards-compliant.
 
 If the content is not UTF-8 encoded or you want to customize the parsing options, you should call the Parse or ReadFile functions
-found in the github.com/moovweb/gokogiri/xml package. The xml.StrictParsingOption is conveniently provided for standards-compliant
+found in the github.com/briand787b/gokogiri2/xml package. The xml.StrictParsingOption is conveniently provided for standards-compliant
 behaviour.
 */
 func ParseXml(content []byte) (doc *xml.XmlDocument, err error) {

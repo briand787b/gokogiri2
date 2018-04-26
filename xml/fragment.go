@@ -4,8 +4,9 @@ package xml
 import "C"
 import (
 	"errors"
-	. "github.com/moovweb/gokogiri/util"
 	"unsafe"
+
+	. "github.com/briand787b/gokogiri2/util"
 )
 
 type DocumentFragment struct {

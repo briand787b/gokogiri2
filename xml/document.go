@@ -9,11 +9,12 @@ import "C"
 
 import (
 	"errors"
-	"github.com/moovweb/gokogiri/help"
-	. "github.com/moovweb/gokogiri/util"
-	"github.com/moovweb/gokogiri/xpath"
 	"os"
 	"unsafe"
+
+	"github.com/briand787b/gokogiri2/help"
+	. "github.com/briand787b/gokogiri2/util"
+	"github.com/briand787b/gokogiri2/xpath"
 )
 
 type Document interface {
